@@ -17,7 +17,7 @@ body{
 
 .background{
     
-    background-image:linear-gradient(to bottom, rgba(10, 10, 10, 0.92), rgba(7, 7, 7, 0.73)), url(/image/background.jpg);
+    background-image:linear-gradient(to bottom, rgba(10, 10, 10, 0.92), rgba(7, 7, 7, 0.73)), url(image/background.jpg);
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -28,7 +28,7 @@ body{
 }
 /* -------navbar------- */
 .logo {
-    background-image: url(/image/logo.png);
+    background-image: url(image/logo.png);
     height: 50px;
     width: 50px;
     background-size: contain;
@@ -181,7 +181,7 @@ flex-direction: column;
 
 }
 .overPic{
-    background-image: url(/image/comp.jpg);
+    background-image: url(image/comp.jpg);
     height: 60vh; 
     background-position: center;
     background-size:contain;
@@ -322,7 +322,7 @@ h1{
     font-size: 50px;
 }
 .resPic{
-    background-image: url(/image/resources.png);
+    background-image: url(image/resources.png);
     height: 60vh; 
     background-position: center;
     background-size:contain;
@@ -332,7 +332,7 @@ h1{
     padding: 0;
 }
 .studentPic{
-    background-image: url(/image/studentPic.jpg);
+    background-image: url(image/studentPic.jpg);
     height: 60vh; 
     background-position: center;
     background-size:contain;
@@ -587,7 +587,7 @@ input[type="checkbox"]{
 
 }
 .parentPic{
-    background-image: url(/image/mother3.png);
+    background-image: url(image/mother3.png);
     height: 100vh; 
     width: 40%;
     background-position: center;
@@ -709,7 +709,7 @@ div::-webkit-scrollbar{
     height: 33%;
     width: 100%;
    
-    background-image: url(/image/crt.png);
+    background-image: url(image/crt.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -727,7 +727,7 @@ div::-webkit-scrollbar{
     height: 33%;
     width: 100%;
    
-    background-image: url(/image/mac.png);
+    background-image: url(image/mac.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position:right;
@@ -750,7 +750,7 @@ div::-webkit-scrollbar{
     height: 33%;
     width: 100%;
 
-    background-image: url(/image/mb.png);
+    background-image: url(image/mb.png);
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -855,7 +855,7 @@ textarea{
 
 }
 .box1pic{
-    background-image: url(/image/mark.png);
+    background-image: url(image/mark.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -878,7 +878,7 @@ textarea{
     color: white;
 }
 .box2pic{
-    background-image: url(/image/Kobe-Bryant-PNG-Pic.png);
+    background-image: url(image/Kobe-Bryant-PNG-Pic.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -901,7 +901,7 @@ textarea{
     color: white;
 }
 .box3pic{
-    background-image: url(/image/steph.png);
+    background-image: url(image/steph.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -924,7 +924,7 @@ textarea{
     color: white;
 }
 .box4pic{
-    background-image: url(/image/mr.png);
+    background-image: url(image/mr.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1078,7 +1078,7 @@ padding-right: 100px;
     color: rgb(139, 139, 19);
 }
 .footerlogo{
-    background-image: url(logo.png);
+    background-image: url(image/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
