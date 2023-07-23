@@ -1,0 +1,1266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&family=Pontano+Sans:wght@300;400&family=Poppins&family=Quicksand:wght@500&family=Righteous&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    scroll-behavior: smooth;
+    padding: 0;
+   
+}
+body{ 
+    background-color: #292727;
+}
+    
+
+
+.background{
+    
+    background-image:linear-gradient(to bottom, rgba(10, 10, 10, 0.92), rgba(7, 7, 7, 0.73)), url(/image/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    position: relative;
+    
+}
+/* -------navbar------- */
+.logo {
+    background-image: url(/image/logo.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    position:absolute;
+    left:20px;
+    top:1px;
+}
+.logo:hover{
+    scale: 1.2;
+    transition-duration: 0.4s;
+
+}
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    height:  45px;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(255, 192, 0,0.2);
+    position: fixed;
+    z-index: 1;
+    
+  
+}
+.navbar-item { 
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.navbar-item li a{
+    text-decoration: none;
+    padding: 10px;   
+    color:white
+    
+}
+.navbar-item li a:hover{
+    color:rgb(255, 192, 0);
+    scale: 1.2;
+    transition-duration: 0.4s;
+}
+    
+
+/* ----hero Section------ */
+.banner{
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+}
+.bannerSub{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+    padding-top:10px;
+}
+.bannerSub2{
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+    
+  
+}
+
+.heroContent{
+    display: flex;
+    height: 970px;
+    width: 100wv;
+   
+
+flex-direction: column;
+    justify-content: center;
+ 
+   /* position: absolute; */
+   /* text-align: center; */
+   align-items: center;
+   /* left: 50%;
+   margin-left:-400px;
+   top: 50%;
+   margin-top: -130px;
+   padding: 30px 10px;
+   border-radius: 4px;
+    */
+  
+
+
+}
+
+.line{
+    background-color: rgb(255, 192, 0);
+    height: 5px;
+    width: 530px;
+    background: linear-gradient(rgb(112, 89, 20), #212404);
+
+}
+.exploreBtn a{
+    background-color: rgb(255, 192, 0);
+    padding: 14px 62px;
+    margin: 0 100px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.exploreBtn:hover{
+    color:rgba(255, 192, 0, 0.4);
+    scale: 1.2;
+    transition-duration: 0.4s; */
+} 
+
+.icon{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -230px; 
+
+}
+
+.icon i:hover{
+    color:rgb(112, 89, 20);
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
+/* -------End of Hero Section--------- */
+
+
+
+
+
+/* -------Student Section------- */
+.Student{
+    background-color: #292727;
+    
+}
+
+.Student{
+    height: 900px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+
+}
+.overPic{
+    background-image: url(/image/comp.jpg);
+    height: 60vh; 
+    background-position: center;
+    background-size:contain;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.StudentProCon{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
+.student-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.container1
+{
+    width: 20%;
+    height: 250px;
+   
+    color:black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.sideNav {
+    background-color:rgb(216, 138, 24);
+    border: 1px solid black;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    box-shadow: 0.2px 0.5px 8px 1px #424242;
+}
+.two{
+    background-color: rgb(230, 158, 48);
+}
+.three{
+    background-color: rgb(252, 182, 61);
+}
+.four{
+    background-color: rgb(253, 211, 138);
+}
+.five{
+    background-color: rgb(252, 236, 206);
+}
+.sideNav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    height: 200px;
+}
+.one:hover{
+    scale: 1.1;
+    transition-duration: 0.4s;
+
+}
+
+    
+
+
+.two:hover{
+    scale: 1.1;
+    transition-duration: 0.4s;
+
+}
+.three:hover{
+    scale: 1.1;
+    transition-duration: 0.4s;
+
+}
+.four:hover{
+    scale: 1.1;
+    transition-duration: 0.4s;
+
+}
+.five:hover{
+    scale: 1.1;
+    transition-duration: 0.4s;
+
+}
+.container2{
+    height: 700px;
+    width: 60%;
+  
+    margin-top: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.content{
+    color: white;
+    margin-top: 30px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:justify;
+    font-size: 18px;
+}
+table, th, td{
+    border: 1px solid white;
+    color: white;
+    margin-top: 30px ;
+    margin-left: 100px;
+    margin-right: 100px;
+ border-collapse: collapse;
+    padding: 15px;
+    font-size: 16px;
+
+}
+th{
+    font-size: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    background-color: #aca2a2;
+}
+.content1{
+    color:rgb(252, 252, 252);
+    margin-top: 30px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    font-size: 18px;
+}
+h1{
+    color:white;
+    margin-left: 100px;
+    font-size: 50px;
+}
+.resPic{
+    background-image: url(/image/resources.png);
+    height: 60vh; 
+    background-position: center;
+    background-size:contain;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.studentPic{
+    background-image: url(/image/studentPic.jpg);
+    height: 60vh; 
+    background-position: center;
+    background-size:contain;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+/* ---------end of student Section-------- */
+
+/* ------scrollbar design--------- */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(255, 192, 0), #212404);
+}
+/* ------end of scrollbar design------ */
+
+
+/* ----------Modal Log in-------- */
+.show-btn1{
+    padding: 5px 20px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgb(255, 192, 0);
+    border-radius: 50px;
+    margin-top:0;
+    text-align: center;
+}
+.show-btn2{
+    padding: 5px 20px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgba(247, 245, 241,0.1);
+    border-radius: 50px;
+    margin-top:0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(252, 182, 61);
+}
+.show-btn1:hover{
+    background-color: rgba(255, 192, 0, 0.7);
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+.show-btn2:hover{
+    background-color: rgba(255, 192, 0, 0.7);
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#show:checked ~ .logContainer{
+    display: block;
+}
+
+.logContainer{
+    display: none;
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgb(138, 136, 133);
+    border: 1px solid rgba(17, 16, 17, 0.2);
+   
+
+}
+.logContainer {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    margin-left: -165px;
+   
+   
+}
+.logContainer .closeBtn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+
+
+.closeBtn:hover{
+    color:orange;
+}
+.welsign1{
+    margin-top: 5px;
+    padding-top: 20px;
+    /* text-align: center; */
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+form{
+    margin: 20px;
+
+}
+label{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding:4px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(255, 192, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+a{
+    text-decoration: none;
+    color:#12130b;
+
+}
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+}
+/* -------end of modal login-------- */
+/* --------modal sign up------- */
+
+.show-btn{
+    padding: 2px 20px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgb(255, 102, 0);
+    border-radius: 50px;
+    margin-top:0;
+    text-align: center;
+}
+.show-btn1:hover{
+    background-color: rgba(255, 192, 0, 0.7);
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#show1:checked ~ .signcontainer{
+    display: block;
+}
+
+.signcontainer{
+    display: none;
+    width: 450px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgb(138, 136, 133);
+    border: 1px solid rgba(17, 16, 17, 0.2);
+   
+
+}
+.signcontainer {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    margin-left: -215px;
+    
+   
+}
+.signcontainer .closeBtn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+
+
+.closeBtn:hover{
+    color:orange;
+}
+
+.welsign{
+    margin-top: 5px;
+    padding-top: 20px;
+    /* text-align: center; */
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left:0;
+}
+.sign-log{
+    padding: 0 5px;
+}
+
+/* -----------end of modal sign up------------ */
+
+.lineSep{
+    background-color: rgb(17, 17, 17);
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.icon i{
+    padding: 15px 10px;
+    color:white;
+}
+
+
+/* ------------parents section ACCORDION------------ */
+
+.parent{
+    background-color: #292727;
+  
+    height: 900px;
+    width: 100wv;
+}
+
+.parentSec{
+    display: flex;
+
+}
+.parentPic{
+    background-image: url(/image/mother3.png);
+    height: 100vh; 
+    width: 40%;
+    background-position: center;
+    background-size:contain;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    padding: 0;
+
+}
+.parentsSec{
+    margin-left: 0;
+}
+
+
+
+#accordion{
+    margin: 100px auto;
+    width: 800px;
+
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #bebcbc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 100px;
+    
+}
+.parFirst{
+    color: black;
+}
+
+#accordion li label{
+    padding: 10px 0px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(138, 104, 2);
+    border-bottom: 1px solid grey;
+    border-radius: 4px;
+    
+
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 20px;
+    color: #333;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .firstcontent{
+    padding: 0 20px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.firstcontent p{
+    font-size: 16px;
+}
+strong{
+    font-size: 18px;
+}
+
+
+.advLi{
+    
+   font-size: 16px;
+   padding-left: 30px;
+   padding-top: 5px;
+}
+.fa-regular fa-circle-check{
+    background-color: green;
+}
+#accordion label + input[type="radio"]:checked + .firstcontent{
+    max-height: 500px;
+}
+/* -----------End of parents Section Accordion -------- */
+
+
+div::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* -----------Business Section ---------- */
+
+.businessSec{
+
+    height: 900px;
+    width: 100wv;
+}
+
+.bcontainer{
+  
+    height: 90vh;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+}
+.bcontainer1{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.col1{
+    height: 33%;
+    width: 100%;
+   
+    background-image: url(/image/crt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.col2{
+    height: 33%;
+    width: 100%;
+    
+}
+.year{
+    font-size: 38px;
+    font-weight: 600;
+}
+.col3{
+    height: 33%;
+    width: 100%;
+   
+    background-image: url(/image/mac.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
+    
+}
+.bcontainer2{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bcol1{
+    height: 33%;
+    width: 100%;
+    
+}
+.bcol2{
+    height: 33%;
+    width: 100%;
+
+    background-image: url(/image/mb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    /* background-position: center; */
+}
+.bcol3{
+    height: 33%;
+    width: 100%;
+  
+}
+
+.bcoldesc1{
+    font-size: 18px;
+    text-align: justify;
+    margin: 5px 420px 0px 30px;
+    color: white;
+    text-shadow: 3px -1px 2px rgba(0,0,0,0.56);
+    
+    
+}
+.bcoldesc2{
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 30px 0px 420px;
+    color: white;
+    text-shadow: 3px -1px 2px rgba(0,0,0,0.56);
+}
+.bcoldesc3{
+    font-size: 18px;
+    text-align:justify;
+    margin: 20px 420px 0px 30px;
+    color: white;
+    text-shadow: 3px -1px 2px rgba(0,0,0,0.56);
+}
+.businessSec{
+    height: auto;
+    border: none;
+}
+/* ------------end of business section------------ */
+
+/* --------------comment section---------- */
+
+.cContainer{
+    height: 900px;
+    width: 100wv;
+    box-shadow: 5px 10px 8px 10px #131212;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 10px;
+    
+}
+.cContainer1{
+    height: 50%;
+
+}
+.cContainer2{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 250px;
+    border: 3px solid wheat;
+    box-shadow: 5px 10px 8px 10px #131212;
+    height: 90%;
+    margin-bottom: 20px;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+textarea{
+    width: 90%;
+    height: 300px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: rgba(18, 19, 11,0.4);
+    color: white;
+    font-size: 20px;
+    margin: 20px 5%;
+}
+
+.submit{
+    width: 200px;
+    padding: 20px 20px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+.submit:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+    background-color: rgba(255, 192, 0, 0.4);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1pic{
+    background-image: url(/image/mark.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    height: 200px;
+    width: 200px;
+    padding: 2px auto;
+    border-radius: 100px;
+}
+.name1{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    margin: 5px;
+}
+.comment1{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 20px 10px 20px;
+    color: white;
+}
+.box2pic{
+    background-image: url(/image/Kobe-Bryant-PNG-Pic.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    height: 200px;
+    width: 200px;
+    padding: 2px auto;
+    border-radius: 100px;
+}
+.name2{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    margin: 5px;
+}
+.comment2{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 20px 10px 20px;
+    color: white;
+}
+.box3pic{
+    background-image: url(/image/steph.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    height: 200px;
+    width: 200px;
+    padding: 2px auto;
+    border-radius: 100px;
+}
+.name3{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    margin: 5px;
+}
+.comment3{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 20px 10px 20px;
+    color: white;
+}
+.box4pic{
+    background-image: url(/image/mr.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    padding: 2px auto;
+    border-radius: 100px;
+}
+.name4{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    margin: 5px;
+}
+.comment4{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 20px 10px 20px;
+    color: white;
+}
+
+/* -------------end of comment section--------- */
+
+/* --------carousel section----------- */
+.carousel{
+    height: 1400px;
+    width: 100wv;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caroContainer{
+    height: 1350px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caroContent1{
+    height: 650px;
+    width: 930px;
+    
+  
+   
+}
+.caroContent1{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+ 
+}
+.slide{
+width: 930px;
+scroll-snap-align: start;
+background-size: contain;
+background-position: center;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+.caroIcon{
+    z-index: 1;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 420px;   
+    background-color: rgba(92, 92, 3, 0.5);
+    border-radius: 15px;
+}
+.caroIcon a i{
+    padding: 10px 10px;
+}
+.caroIcon a i::after{
+    color: red;
+}
+.caroIcon a i:hover{
+    transform: scale(1.4);
+    transition: 0.4;
+
+
+  
+}
+.caroContent2{
+  
+    height: 30px;
+    background-color: #eb9b14;
+    width: 98%;
+}
+.caroContent3{
+    height: 300px;
+    width: 98%;
+    border: 3px solid rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Address{
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid yellow;
+    display: inline;
+}
+.addressDesc{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px ;
+}
+
+.caroContent4{
+    height: 100px;
+    width: 98%;
+    background-color: #eb9b14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.phone{
+    color: white;
+    margin-bottom: 8px;
+}
+.phone i{
+    color: green;
+}
+
+.iconFooter i{
+    padding: 0px 10px;
+}
+
+.emailAdd{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.email1{
+    color: white;
+    font-size: 14px;
+}
+.email1 i{
+    color: rgb(139, 139, 19);
+}
+.footerlogo{
+    background-image: url(logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 330px;
+    height: 250px;
+}
+.footer1{
+    height: 250px;
+    width: 420px;
+    /* border: 3px solid pink; */
+}
+.footer2{
+    height: 250px;
+    width: 330px;
+  
+}
+.footer3{
+    height: 250px;
+    width: 330px;
+}
+
+.email1 a{
+    color: white;
+    font-size: 14px;
+}
+.iconFooter i:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+/* -------------end of carousel section---------- */
+
+
+@media only screen and (max-width: 800px) {
+.banner{
+    font-size:60px;
+    
+}    
+.sideNav{
+    font-size: 8px;
+    margin-right: 10px;
+    justify-content: right;
+}
+.container1{
+    margin-left:2px;
+}
+.container2{
+    width: 600px;
+}
+.overPic{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.StudentProCon{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+table, th, td{
+    border: 1px solid white;
+    color: white;
+    margin-top: 30px ;
+    margin-left: 30px;
+    margin-right: 30px;
+ border-collapse: collapse;
+    padding: 10px;
+    font-size: 12px;
+
+}
+th{
+    font-size: 16px;
+    font-family: 'Ubuntu',sans-serif;
+    background-color: #aca2a2;
+}
+.content1{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.resPic{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.studentPic{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.parentPic{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    width: 400px;
+}
+.parentSec{
+    display:flex;
+    flex-direction: column;
+
+}
+.parent{
+    height: 1200px;
+}
+#accordion{
+    margin: -10px auto;
+    width: 700px;
+    padding: 0;
+}
+
+.bcoldesc1{
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px 20px 0px 30px;}
+.bcoldesc2{
+    font-size: 14px;
+    text-align: justify;
+    margin: 15px 20px 0px 30px;}
+.bcoldesc3{
+    font-size: 14px;
+    text-align: justify;
+    margin: 70px 20px 0px 30px;}
+
+.cContainer{
+    height: 1400px;
+
+  
+    width: 90%;
+    margin: 40px auto;
+    
+}
+.cContainer1{
+    height: 500px;
+}
+.box{
+    height: 420px;
+    margin-top: 0px;
+}
+.caroContent3{
+    height: 900px;
+    width: 98%;
+    border: 3px solid rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.caroContent1{
+    height: 950px;
+    width: 600px;
+   
+   
+}
+.caroIcon{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 205px;   
+    
+}
+
+.caroContent3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer1{
+    width: 330px;
+}
+.overPic{
+    height: 31vh;
+}
+.resPic{
+    height: 31vh;
+}
+.studentPic{
+    height: 31vh;
+}
+}
+
+@media only screen and (max-width: 975px) {
+    .banner{
+        font-size:90px;
+        
+    }    
+}
