@@ -11,6 +11,7 @@
 }
 body{ 
     background-color: #292727;
+    z-index: -11;
 }
     
 
@@ -730,7 +731,10 @@ div::-webkit-scrollbar{
     background-image: url(image/mac.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:right;
+    background-position:center;
+    margin-left: 0px;
+    background-position: right;
+
     
 }
 .bcontainer2{
@@ -753,6 +757,7 @@ div::-webkit-scrollbar{
     background-image: url(image/mb.png);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 50px;
     
     /* background-position: center; */
 }
@@ -865,17 +870,26 @@ textarea{
     padding: 2px auto;
     border-radius: 100px;
 }
+.box1pic{
+
+    height: 210px;
+}
 .name1{
     font-size: 20px;
     font-weight: 600;
     background-color: yellow;
     margin: 5px;
+   
+    height: 30px;
+
 }
 .comment1{
     font-size: 16px;
     text-align: justify;
     margin: 10px 20px 10px 20px;
     color: white;
+   
+    height: 150px;
 }
 .box2pic{
     background-image: url(image/Kobe-Bryant-PNG-Pic.png);
@@ -888,17 +902,25 @@ textarea{
     padding: 2px auto;
     border-radius: 100px;
 }
+.box2pic{
+  
+    height: 210px;
+}
 .name2{
     font-size: 20px;
     font-weight: 600;
     background-color: yellow;
     margin: 5px;
+  
+    height: 30px;
 }
 .comment2{
     font-size: 16px;
     text-align: justify;
     margin: 10px 20px 10px 20px;
     color: white;
+ 
+    height: 150px;
 }
 .box3pic{
     background-image: url(image/steph.png);
@@ -911,17 +933,24 @@ textarea{
     padding: 2px auto;
     border-radius: 100px;
 }
+.box3pic{
+   
+    height: 210px;}
 .name3{
     font-size: 20px;
     font-weight: 600;
     background-color: yellow;
     margin: 5px;
+   
+    height: 30px;
 }
 .comment3{
     font-size: 16px;
     text-align: justify;
     margin: 10px 20px 10px 20px;
     color: white;
+
+    height: 150px;
 }
 .box4pic{
     background-image: url(image/mr.png);
@@ -933,17 +962,24 @@ textarea{
     padding: 2px auto;
     border-radius: 100px;
 }
+.box4pic{
+  
+    height: 210px;}
 .name4{
     font-size: 20px;
     font-weight: 600;
     background-color: yellow;
     margin: 5px;
+  
+    height: 30px;
 }
 .comment4{
     font-size: 16px;
     text-align: justify;
     margin: 10px 20px 10px 20px;
     color: white;
+  
+    height: 150px;
 }
 
 /* -------------end of comment section--------- */
